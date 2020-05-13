@@ -1,0 +1,5 @@
+language: java
+jdk:
+  - oraclejdk9
+script: ./gradlew check
+after_success: ./gradlew uploadPublished
