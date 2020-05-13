@@ -308,7 +308,7 @@ class B3JFXMobilePlugin implements Plugin<Project> {
         }
 
         project.gradle.taskGraph.whenReady {
-            project.logger.info("Using javafxports version ${project.jb3fxmobile.javafxportsVersion}")
+            project.logger.info("Using javafxports version ${project.b3jfxmobile.javafxportsVersion}")
             configure()
 
             // only configure android when one of the android tasks will be run
